@@ -7,11 +7,11 @@
 # print(a[0:3])
 # print(a[3:6])
 # print(a[6:])
-a = [1,2,3,4,"haha","哈哈哈1","呼呼呼",True]
-a.append("append1")
-a.append("append2")
-# print(a)
-a.insert(0,"insert")
+# a = [1,2,3,4,"haha","哈哈哈1","呼呼呼",True]
+# a.append("append1")
+# a.append("append2")
+# # print(a)
+# a.insert(0,"insert")
 # print(a)
 # b = a.pop(6)
 # print(b)
@@ -58,25 +58,25 @@ a.insert(0,"insert")
 # while a < 20:
 #     print("哈哈哈",a)
 #     a = a+1
-a = {}
-X = {}
-Y = {}
-b = 1
-while b <= 3:
-    a.update(name=input("姓名："),mark=input("分数："))
-    b = b+1
-    mark = int(a.get("mark"))
-    # mark = int(mark)
-    name = a.get("name")
-    if mark >= 60:
-        X[name] = mark
+# a = {}
+# X = {}
+# Y = {}
+# b = 1
+# while b <= 3:
+#     a.update(name=input("姓名："),mark=input("分数："))
+#     b = b+1
+#     mark = int(a.get("mark"))
+#     # mark = int(mark)
+#     name = a.get("name")
+#     if mark >= 60:
+#         X[name] = mark
 
-        # X.append(h)
-    else:
-        Y[name] = mark
+#         # X.append(h)
+#     else:
+#         Y[name] = mark
 
-print("及格：",X)
-print("不及格：",Y)
+# print("及格：",X)
+# print("不及格：",Y)
 # a = {}
 # a.update(name=input("姓名："),mark=input("分数："))
 # a.update(name=input("姓名："),mark=input("分数："))
@@ -91,3 +91,43 @@ print("不及格：",Y)
 # b.update(name="qqq")
 # a.append(b)
 # print(a)
+# for i in range(100):
+#     print(i)
+# a = list(range(0,100,2))
+# print(a)
+# for i in range(10):
+#  print(i)
+# a = ["haha","老李","小王姐","老王"]
+# for i in a:
+#     print(i)
+# a = list(range(10))
+# print(a,end="---")
+# print(10)
+# for i in range(1,10):
+#     for j in range(1,i+1):
+#         print(j,"X",i,"=",i*j,end="   ")
+#     print()
+# a = 10
+# while a < 20:
+
+#     for r in range(0,30):
+#         print("红灯还有",(30-r),"秒结束")
+#     for g in range(0,35):
+#         print("绿灯还有",(35-g),"秒结束")
+#     for y in range(0,3):
+#         print("黄灯还有",(3-y),"秒结束")
+# username = input("请输入账号：")
+# while len(username) < 5 or len(username) > 8:
+#     print("账号长度不符格则，请重新输入！")
+#     username = input("请重新输入账号：")
+# password = input("请输入密码：")
+# while len(password) < 6 or len(password) > 12:
+#     print("不符合格则，请重新输入！")
+#     password = input("请重新输入密码：")
+# a = {}
+# a[username] = password
+# print(a)
+try :
+    print(a+1)
+except:
+    print("代码写错")
