@@ -127,7 +127,7 @@
 # a = {}
 # a[username] = password
 # print(a)
-try :
-    print(a+1)
-except:
-    print("代码写错")
+# try :
+#     print(a+1)
+# except:
+#     print("代码写错")
